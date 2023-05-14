@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.footer{
+    background-color: rgb(230, 230, 230);
+
+    font-size: 2em;
+    
+   border-radius: 4px 4px 0 0    ;
+   
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: fixed;
+    width: 90%;
+    bottom: 0;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer>.left{
+    font-family: 'Itim', cursive;
+    margin-right: 2%;
+}
+
+.footer>.right{
+    font-family: 'Caveat', cursive;
+    margin-left: 2%;
+
+}
