@@ -28,6 +28,11 @@
 
 .footer>.right{
     font-family: 'Caveat', cursive;
+    font-size: 24px;
     margin-left: 2%;
+}
 
+.right>p{
+    margin: 0;
+    padding: 0;
 }

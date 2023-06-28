@@ -1,0 +1,28 @@
+*{
+    /* border: 1px springgreen solid; */
+}
+
+.SearchDiv{
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.SearchDiv>*{
+    padding: 0.5rem;
+}
+
+.SearchDiv>input{
+    border: none;
+    outline: none;
+    height: 100%;
+
+}
+
+.SearchDiv>button{
+    border: none;
+    outline: none;
+}
+
+.SearchDiv>button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,13 +1,41 @@
 import Footer from "./components/Footer"
 import Searchbar from "./components/Searchbar"
-import './App.css'
+import ProductList from '../../../Pluto-UI/src/components/ProductList/ProductList';
+
 function App() {
   
   return (
    <>
-
-      <Searchbar  />
-      <Footer />
+<ProductList
+  price={199.99}
+  productDescOneLiner="Capturing Life's Precious Moments."
+  productTitle="Canon Camera"
+  productimage="https://drive.google.com/uc?id=18oDQIvP0KcgEALSUQ02yJSR5yvDUvTZv"
+/>
+<ProductList
+  price={199.99}
+  productDescOneLiner="Capturing Life's Precious Moments."
+  productTitle="Canon Camera"
+  productimage="https://drive.google.com/uc?id=18oDQIvP0KcgEALSUQ02yJSR5yvDUvTZv"
+/>
+<ProductList
+  price={199.99}
+  productDescOneLiner="Capturing Life's Precious Moments."
+  productTitle="Canon Camera"
+  productimage="https://drive.google.com/uc?id=18oDQIvP0KcgEALSUQ02yJSR5yvDUvTZv"
+/>
+<ProductList
+  price={199.99}
+  productDescOneLiner="Capturing Life's Precious Moments."
+  productTitle="Canon Camera"
+  productimage="https://drive.google.com/uc?id=18oDQIvP0KcgEALSUQ02yJSR5yvDUvTZv"
+/>
+<ProductList
+  price={199.99}
+  productDescOneLiner="Capturing Life's Precious Moments."
+  productTitle="Canon Camera"
+  productimage="https://drive.google.com/uc?id=18oDQIvP0KcgEALSUQ02yJSR5yvDUvTZv"
+/>
    </>
   )
 }

@@ -9,7 +9,10 @@ const Footer = () => {
         </div>
 
         <div className="right">
-            Made with love
+          <p>Made</p>
+          <p>With</p>
+          <p>Love</p>
+
         </div>
     </footer>
   )
